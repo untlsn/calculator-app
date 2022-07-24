@@ -1,0 +1,6 @@
+extends: '@antfu'
+plugins:
+  - only-warn
+rules:
+  '@typescript-eslint/semi': [error, always]
+  eqeqeq: off
